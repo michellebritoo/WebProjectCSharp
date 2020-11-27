@@ -13,8 +13,9 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
+    using BritoWebMVC.Models.ViewModels;
 #line 1 "C:\Users\Usuário\source\repos\BritoWebMVC\BritoWebMVC\Views\_ViewImports.cshtml"
-using BritoWebMVC;
+    using BritoWebMVC;
 
 #line default
 #line hidden

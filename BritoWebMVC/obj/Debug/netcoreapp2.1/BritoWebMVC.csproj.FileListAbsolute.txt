@@ -33,3 +33,4 @@ C:\Users\Usuário\source\repos\BritoWebMVC\BritoWebMVC\obj\Debug\netcoreapp2.1\B
 C:\Users\Usuário\source\repos\BritoWebMVC\BritoWebMVC\obj\Debug\netcoreapp2.1\BritoWebMVC.pdb
 C:\Users\Usuário\source\repos\BritoWebMVC\BritoWebMVC\obj\Debug\netcoreapp2.1\BritoWebMVC.genruntimeconfig.cache
 C:\Users\Usuário\source\repos\BritoWebMVC\BritoWebMVC\obj\Debug\netcoreapp2.1\BritoWebMVC.csproj.CopyComplete
+C:\Users\Usuário\source\repos\BritoWebMVC\BritoWebMVC\obj\Debug\netcoreapp2.1\Razor\Views\Departments\Index.cshtml.g.cs

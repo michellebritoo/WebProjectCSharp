@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using BritoWebMVC.Models.ViewModels;
 
 namespace BritoWebMVC.Controllers
 {
@@ -17,7 +18,8 @@ namespace BritoWebMVC.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Aplicação web para vendas em .NET";
+            ViewData["Email"] = "michellebrito@sou.faccat.br";
 
             return View();
         }
@@ -25,7 +27,6 @@ namespace BritoWebMVC.Controllers
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
-
             return View();
         }
 

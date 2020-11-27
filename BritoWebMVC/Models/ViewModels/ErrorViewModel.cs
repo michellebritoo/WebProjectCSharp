@@ -1,6 +1,6 @@
 using System;
 
-namespace BritoWebMVC.Models
+namespace BritoWebMVC.Models.ViewModels
 {
     public class ErrorViewModel
     {
