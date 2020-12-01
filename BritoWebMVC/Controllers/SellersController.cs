@@ -2,18 +2,20 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using BritoWebMVC.Services;
 using BritoWebMVC.Models;
+using BritoWebMVC.Models.ViewModels;
 
 namespace BritoWebMVC.Controllers
 {
     public class SellersController : Controller
     {
         private readonly SellerService _sellerService;
+        private readonly DepartmentService _departmentService;
 
-        public SellersController(SellerService sellerService)
+        public SellersController(SellerService sellerService, DepartmentService departmentService)
         {
+            _departmentService = departmentService;
             _sellerService = sellerService;
         }
 
@@ -25,7 +27,9 @@ namespace BritoWebMVC.Controllers
 
         public IActionResult Create()
         {
-            return View();
+            var departments = _departmentService.FindAll();
+            var ViewModel = new SellerFormViewModel { Departments = departments };
+            return View(ViewModel);
         }
 
         [HttpPost]
