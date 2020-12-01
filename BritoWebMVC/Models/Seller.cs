@@ -12,6 +12,7 @@ namespace BritoWebMVC.Models
         public double BaseSalary { get; set; }
         public DateTime BitrhDate { get; set; }
         public Department department { get; set; }
+        public int DepartmentId { get; set; }
         public ICollection<SallesRecord> Sales { get; set; } = new List<SallesRecord>();
 
         public Seller()

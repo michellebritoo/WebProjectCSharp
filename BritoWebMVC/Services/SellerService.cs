@@ -23,6 +23,7 @@ namespace BritoWebMVC.Services
 
         public void Insert(Seller obj)
         {
+            obj.DepartmentId = _context.Department.First();
             _context.Add(obj);
             _context.SaveChanges();
         }
