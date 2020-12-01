@@ -11,6 +11,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using BritoWebMVC.Data;
+using BritoWebMVC.Services;
 
 namespace BritoWebMVC
 {
@@ -41,6 +42,7 @@ namespace BritoWebMVC
                     builder => builder.MigrationsAssembly("BritoWebMVC")));
 
             services.AddScoped<SeedingService>(); //register this service in aplication
+            services.AddScoped<SellerService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
