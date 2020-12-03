@@ -37,9 +37,17 @@ namespace BritoWebMVC.Services
 
         public async Task RemoveAsycn(int id)
         {
-            var obj =await  _context.Seller.FindAsync(id);
-            _context.Seller.Remove(obj);
-            await _context.SaveChangesAsync();
+            try
+            {
+                var obj = await _context.Seller.FindAsync(id);
+                _context.Seller.Remove(obj);
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateException e)
+            {
+                throw new IntegrityException("this seller cannot be deleted because it has sales");
+            }
+
         }
 
         public async Task UpdateAsync(Seller obj)
