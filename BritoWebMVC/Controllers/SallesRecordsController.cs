@@ -20,7 +20,7 @@ namespace BritoWebMVC.Controllers
         {
             return View();
         }
-        public async Task<IActionResult> SimplesSearch(DateTime ? minDate, DateTime ? maxDate)
+        public async Task<IActionResult> SimplesSearch(DateTime? minDate, DateTime? maxDate)
         {
             if (!minDate.HasValue)
             {
@@ -29,7 +29,7 @@ namespace BritoWebMVC.Controllers
 
             if (!maxDate.HasValue)
             {
-                maxDate = new DateTime(DateTime.Now);
+                maxDate = DateTime.Now;
             }
 
             ViewData["minDate"] = minDate.Value.ToString("dd/mm/aaaa");
@@ -37,10 +37,25 @@ namespace BritoWebMVC.Controllers
             var result = await _sallesRecordService.FindByDateAsync(minDate, maxDate);
             return View(result);
         }
-        public IActionResult GroupingSearch()
+
+        public async Task<IActionResult> GroupingSearch(DateTime? minDate, DateTime? maxDate)
         {
-            return View();
+            if (!minDate.HasValue)
+            {
+                minDate = new DateTime(DateTime.Now.Year, 1, 1);
+            }
+
+            if (!maxDate.HasValue)
+            {
+                maxDate = DateTime.Now;
+            }
+
+            ViewData["minDate"] = minDate.Value.ToString("dd/mm/aaaa");
+            ViewData["maxDate"] = maxDate.Value.ToString("dd/mm/aaaa");
+            var result = await _sallesRecordService.FindByDateGroupingAsync(minDate, maxDate);
+            return View(result);
         }
+
 
     }
 }
