@@ -11,4 +11,4 @@
 5. Create the pull request.
 
 ### Department management screen:
-![Department menagent screen](https://github.com/michellebritoo/webProjectCSharp/blob/master/media/WebDepartmens.gif)
+![Department menagent screen](https://github.com/michellebritoo/webProjectCSharp/blob/master/media/GifWebDepartments.gif)
