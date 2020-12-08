@@ -12,3 +12,9 @@
 
 ### Department management screen:
 ![Department menagent screen](https://github.com/michellebritoo/webProjectCSharp/blob/master/media/GifWebDepartments.gif)
+
+### About page:
+![page About](https://github.com/michellebritoo/webProjectCSharp/blob/master/media/about.gif)
+
+### Sellers management screen:
+![Seller menagent screen](https://github.com/michellebritoo/webProjectCSharp/blob/master/media/sellers.gif)
