@@ -11,10 +11,12 @@
 5. Create the pull request.
 
 ### Department management screen:
-![Department menagent screen](https://github.com/michellebritoo/webProjectCSharp/blob/master/media/GifWebDepartments.gif)
 
-### About page:
-![page About](https://github.com/michellebritoo/webProjectCSharp/blob/master/media/about.gif)
+#### You can create, edit, delete and view department details
+![Department menagent screen](https://github.com/michellebritoo/webProjectCSharp/blob/master/media/GifWebDepartments.gif)
 
 ### Sellers management screen:
 ![Seller menagent screen](https://github.com/michellebritoo/webProjectCSharp/blob/master/media/sellers.gif)
+
+### About page:
+![page About](https://github.com/michellebritoo/webProjectCSharp/blob/master/media/about.gif)
