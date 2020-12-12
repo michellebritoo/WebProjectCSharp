@@ -5,11 +5,12 @@
 
 ## This project aims to assist sales management. With this simple web application you can manage departments, sales and sellers.
 ## :rocket: Tech skills for the project
-### :white_check_mark: .NET - C#
+### :white_check_mark: ASP.NET - C#
 ### :white_check_mark: Entity Framework
 ### :white_check_mark: MySQL
 ### :white_check_mark: HTML
 ### :white_check_mark: Bootstrap
+### :white_check_mark: Model-View-Controller development pattern
 
 ---
 
