@@ -40,3 +40,10 @@
 ### Contact page:
 #### :pushpin: You can view the project contact information.
 ![page_contact](https://github.com/michellebritoo/webProjectCSharp/blob/master/media/contact.gif)
+
+---
+
+### Project task list
+
+- [X] Publicize the project on social media
+- [ ] Host the project
