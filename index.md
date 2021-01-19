@@ -1,6 +1,6 @@
 ## Sistema web para gestão de vendas
 
-You can use the [editor on GitHub](https://github.com/michellebritoo/webProjectCSharp/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Sistemas de vendas são serviços desenvolvidos para melhorar a rotina de vendas e tornar uma empresa mais eficiente e rentável. Eles vêm ganhando cada vez mais espaço entre os gestores.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
