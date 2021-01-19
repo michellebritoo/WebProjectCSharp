@@ -1,6 +1,7 @@
 ## Sistema web para gestão de vendas
 
-Sistemas de vendas são serviços desenvolvidos para melhorar a rotina de vendas e tornar uma empresa mais eficiente e rentável. Esse projetos vêm ganhando cada vez mais espaço entre os gestores.
+Sistemas de vendas são serviços desenvolvidos para melhorar a rotina de vendas e tornar uma empresa mais eficiente e rentável. Esses projetos vêm ganhando cada vez mais espaço no mercado.
+
 ---
 ### Funcionalidades
 
