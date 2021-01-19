@@ -4,7 +4,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/michellebritoo/webProjectCSharp?style=for-the-badge)
 
 ## This project aims to assist sales management. With this simple web application you can manage departments, sales and sellers.
-### Read more about this project [(in PT-BR)](https://michellebritoo.github.io/webProjectCSharp/)
+### 🌐 Read more about this project [(in PT-BR)](https://michellebritoo.github.io/webProjectCSharp/)
 ---
 
 ## :rocket: Tech skills used in the project
