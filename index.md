@@ -1,6 +1,6 @@
 ## Sistema web para gestão de vendas
 
-Sistemas de vendas são serviços desenvolvidos para melhorar a rotina de vendas e tornar uma empresa mais eficiente e rentável. Eles vêm ganhando cada vez mais espaço entre os gestores.
+Sistemas de vendas são serviços desenvolvidos para melhorar a rotina de vendas e tornar uma empresa mais eficiente e rentável. Esse projetos vêm ganhando cada vez mais espaço entre os gestores.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
