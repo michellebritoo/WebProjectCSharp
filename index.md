@@ -13,6 +13,7 @@ Sistemas de vendas são serviços desenvolvidos para melhorar a rotina de vendas
   - base salarial
 - editar vendedores
 - excluir vendedores
+  - o sistema possui um fator de segurança que só permite que o vendedor seja excluído quando não possui nenhuma venda em aberto.
 
 #### Departamentos
 - Criar
