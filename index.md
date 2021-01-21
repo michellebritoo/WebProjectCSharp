@@ -7,6 +7,10 @@ Sistemas de vendas são serviços desenvolvidos para melhorar a rotina de vendas
 
 #### Vendedores
 - cadastrar vendedores
+  - nome
+  - email
+  - data de nascimento
+  - base salarial
 - editar vendedores
 - excluir vendedores
 
