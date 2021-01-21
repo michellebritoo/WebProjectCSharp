@@ -10,6 +10,11 @@ Sistemas de vendas são serviços desenvolvidos para melhorar a rotina de vendas
 - editar vendedores
 - excluir vendedores
 
+#### Departamentos
+- Criar
+- Editar
+- Deletar
+- Visualizar detalhes
 
 ### Markdown
 
