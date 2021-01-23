@@ -21,9 +21,16 @@ Sistemas de vendas são serviços desenvolvidos para melhorar a rotina de vendas
 - Deletar
 - Visualizar detalhes
 
-### Markdown
+### 🔨 Tecnologias usadas no projeto
+#### Frontend
+- HTML5
+- CSS3
+- Bootstrap CSS
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### Backend
+- ASP.NET Core C#
+- Banco de dados MySQL
+
 
 ```markdown
 Syntax highlighted code block
