@@ -3,11 +3,10 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/michellebritoo/webProjectCSharp?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/michellebritoo/webProjectCSharp?style=for-the-badge)
 
-## This project aims to assist sales management. With this simple web application you can manage departments, sales and sellers.
-### 🌐 Read more about this project [(in PT-BR)](https://michellebritoo.github.io/webProjectCSharp/)
+> This project aims to assist sales management. With this simple web application you can manage departments, sales and sellers.
 ---
 
-## :rocket: Tech skills used in the project
+## :rocket: Skills used in the project
 ### :white_check_mark: ASP.NET - C#
 ### :white_check_mark: Entity Framework
 ### :white_check_mark: MySQL
@@ -43,10 +42,3 @@
 ### Contact page:
 #### :pushpin: You can view the project contact information.
 ![page_contact](https://github.com/michellebritoo/webProjectCSharp/blob/master/media/contact.gif)
-
----
-
-### Project task list
-
-- [X] Publicize the project on social media
-- [ ] Host the project
